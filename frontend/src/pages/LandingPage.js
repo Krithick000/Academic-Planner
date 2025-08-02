@@ -10,6 +10,7 @@ import ReminderSection from '../components/ReminderSection';
 import FinalCTA from '../components/FinalCTA';
 import Footer from '../components/Footer';
 import WaitlistModal from '../components/WaitlistModal';
+import { Toaster } from '../components/ui/toaster';
 import { useState } from 'react';
 
 const LandingPage = () => {
