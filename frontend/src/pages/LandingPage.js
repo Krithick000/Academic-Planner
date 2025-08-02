@@ -36,6 +36,7 @@ const LandingPage = () => {
         isOpen={showWaitlistModal} 
         onClose={() => setShowWaitlistModal(false)} 
       />
+      <Toaster />
     </div>
   );
 };
